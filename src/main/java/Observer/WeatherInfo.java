@@ -1,7 +1,5 @@
 package Observer;
 
-import java.util.ArrayList;
-
 public class WeatherInfo implements Subject{
     private float minTemp, maxTemp, temp, lastPressure, currentPressure, humidity;
     private boolean initialized; // Дані про погоду були ініціалізовані?
