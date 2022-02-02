@@ -1,6 +1,6 @@
 package Observer;
 
-public class Forecast implements ObserverObject, DisplayObject{
+public class Forecast implements ObserverObject{
     private  float lastPressure;
     private  float currentPressure;
 

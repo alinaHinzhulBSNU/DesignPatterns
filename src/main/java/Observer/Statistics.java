@@ -1,6 +1,6 @@
 package Observer;
 
-public class Statistics implements ObserverObject, DisplayObject {
+public class Statistics implements ObserverObject{
     private float minTemp;
     private  float temp;
     private float maxTemp;

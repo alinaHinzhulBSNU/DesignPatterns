@@ -1,6 +1,6 @@
 package Observer;
 
-public class CurrentWeather implements ObserverObject, DisplayObject{
+public class CurrentWeather implements ObserverObject{
     private float temp;
     private  float currentPressure;
     private float humidity;
