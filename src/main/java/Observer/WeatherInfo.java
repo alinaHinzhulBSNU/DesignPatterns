@@ -3,14 +3,8 @@ package Observer;
 import java.util.ArrayList;
 
 public class WeatherInfo implements Subject{
-    private ArrayList<ObserverObject> observers;
     private float minTemp, maxTemp, temp, lastPressure, currentPressure, humidity;
     private boolean initialized; // Дані про погоду були ініціалізовані?
-
-    public WeatherInfo(){
-        this.observers = new ArrayList<ObserverObject>();
-        this.initialized = false;
-    }
 
     @Override
     public void addObserver(ObserverObject observerObject) {
@@ -26,6 +20,7 @@ public class WeatherInfo implements Subject{
     public void notifyObservers() {
         for (ObserverObject observer: observers) {
             observer.update(minTemp, maxTemp, temp, lastPressure, currentPressure, humidity);
+            observer.display(); // для підтвердження того, що "слухачі" дійсно отримали оновлені дані
         }
     }
 

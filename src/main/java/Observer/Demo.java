@@ -4,9 +4,14 @@ public class Demo {
     public static void main(String[] args) {
         WeatherInfo weatherInfo = new WeatherInfo();
 
-        Statistics statistics = new Statistics(weatherInfo);
-        CurrentWeather currentWeather = new CurrentWeather(weatherInfo);
-        Forecast forecast = new Forecast(weatherInfo);
+        Statistics statistics = new Statistics();
+        weatherInfo.addObserver(statistics);
+
+        CurrentWeather currentWeather = new CurrentWeather();
+        weatherInfo.addObserver(currentWeather);
+
+        Forecast forecast = new Forecast();
+        weatherInfo.addObserver(forecast);
 
         // Імітація зміни даних про погоду
         weatherInfo.setData(19, 65, 30.4f);
