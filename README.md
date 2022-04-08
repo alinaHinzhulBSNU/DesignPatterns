@@ -15,3 +15,13 @@ View source code [here](https://github.com/alinaHinzhulBSNU/DesignPatterns/tree/
 View source code [here](https://github.com/alinaHinzhulBSNU/DesignPatterns/tree/master/src/main/java/Decorator)
 ![Decorator](https://github.com/alinaHinzhulBSNU/DesignPatterns/blob/diagrams/UML%20diagrams/Decorator.png)
 <p align="center">Image 3 - Decorator Pattern Class Diagram</p>
+
+## Singleton Pattern
+View source code [here](https://github.com/alinaHinzhulBSNU/DesignPatterns/tree/master/src/main/java/Singleton)
+![Singleton](https://github.com/alinaHinzhulBSNU/DesignPatterns/blob/diagrams/UML%20diagrams/Singleton.png)
+<p align="center">Image 4 - Singleton Pattern Class Diagram</p>
+
+## Simple Factory Pattern
+View source code [here](https://github.com/alinaHinzhulBSNU/DesignPatterns/tree/master/src/main/java/Factory)
+![Factory](https://github.com/alinaHinzhulBSNU/DesignPatterns/blob/diagrams/UML%20diagrams/Factory.png)
+<p align="center">Image 4 - Simple Factory Pattern Class Diagram</p>
